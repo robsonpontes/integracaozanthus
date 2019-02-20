@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><ZMI><DATABASES><DATABASE NAME="MANAGER" AUTOCOMMIT_VALUE="1000" AUTOCOMMIT_ENABLED="1" HALTONERROR="1"><COMMANDS><REPLACE><MERCADORIAS><MERCADORIA>
+<!-- Código da Loja --><!-- Obrigatorio --><COD_LOJA></COD_LOJA>
+<!-- Código da Mercadoria --><!-- Obrigatorio --><COD_MERCADORIA></COD_MERCADORIA>
+<!-- Descrição --><!-- Obrigatorio --><DESCRICAO></DESCRICAO>
+<!-- Produto destacado em --><DOCUMENTO_REGISTRO></DOCUMENTO_REGISTRO>
+<!-- Departamento --><!-- Obrigatorio --><COD_DEPARTAMENTO></COD_DEPARTAMENTO>
+<!-- Departamento --><DES_DEPTO></DES_DEPTO>
+<!-- Produto Inativo --><FLGINATIVO></FLGINATIVO>
+<!-- Pdv Mobile  --><FLG_MOBILE></FLG_MOBILE>
+<!-- categoria fiscal mercado livre --><CATFISC_ML></CATFISC_ML>
+<!-- classificação fiscal mercado livre  --><CLASFISC_ML></CLASFISC_ML>
+<!-- Produto Inativo Por Falta de Regras --><FLG_INATIVO_FISCAL></FLG_INATIVO_FISCAL>
+<!-- Usuário --><USUARIO></USUARIO>
+<!-- Data Cadastro --><DATA_CADASTRO></DATA_CADASTRO>
+<!-- Data última alteração --><DATA_ULTIMA_ALTERACAO></DATA_ULTIMA_ALTERACAO>
+<!-- Assinatura --><ASSINATURA_DADOS></ASSINATURA_DADOS>
+<!-- flg_integracao_01 --><FLG_INTEGRACAO_01></FLG_INTEGRACAO_01>
+<!-- Número Autenticação --><QUANTIDADE_AUTENTICACAO></QUANTIDADE_AUTENTICACAO>
+<!-- Tecla --><COD_TECLA></COD_TECLA>
+<!-- Mercadoria Associada --><COD_MERCADORIA_ASSOCIADA></COD_MERCADORIA_ASSOCIADA>
+<!-- Mercadoria associada --><DES_MERC_ASS></DES_MERC_ASS>
+<!-- Mercadoria Alternativa --><COD_MERCADORIA_ALTERNATIVO></COD_MERCADORIA_ALTERNATIVO>
+<!-- Mercadoria Alternativa --><DES_MERC_ALT></DES_MERC_ALT>
+<!-- Família --><COD_FAMILIA></COD_FAMILIA>
+<!-- Família --><DES_FAMILIA></DES_FAMILIA>
+<!-- Modo do Preço --><MODO_PRECO></MODO_PRECO>
+<!-- Data Modo Preço --><DATA_MODO_PRECO></DATA_MODO_PRECO>
+<!-- Hora Modo Preço --><HORA_MODO_PRECO></HORA_MODO_PRECO>
+<!-- Grupo de Garantia --><GRUPO_GARANTIA></GRUPO_GARANTIA>
+<!-- Garantia do Fabricante (Meses) --><TEMPO_GARANTIA_FABRICANTE></TEMPO_GARANTIA_FABRICANTE>
+<!-- Participa na Troca ou Reembolso? --><FLG_TROCA_REEMBOLSO></FLG_TROCA_REEMBOLSO>
+<!-- Lista de itens --><COD_LISTA_ITEM></COD_LISTA_ITEM>
+<!-- Informação Complementar 1 --><INFO_COMPLEMENTAR></INFO_COMPLEMENTAR>
+<!-- Informação Complementar 2 --><INFO_COMPLEMENTAR_2></INFO_COMPLEMENTAR_2>
+<!-- Informação Complementar 3 --><INFO_COMPLEMENTAR_3></INFO_COMPLEMENTAR_3>
+<!-- Informação Complementar 4 --><INFO_COMPLEMENTAR_4></INFO_COMPLEMENTAR_4>
+<!-- Informação Complementar 5 --><INFO_COMPLEMENTAR_5></INFO_COMPLEMENTAR_5>
+<!-- Informação Complementar 6 --><INFO_COMPLEMENTAR_6></INFO_COMPLEMENTAR_6>
+<!-- Informação Complementar 7 --><INFO_COMPLEMENTAR_7></INFO_COMPLEMENTAR_7>
+<!-- Informação Complementar 8 --><INFO_COMPLEMENTAR_8></INFO_COMPLEMENTAR_8>
+<!-- Informação Complementar 9 --><INFO_COMPLEMENTAR_9></INFO_COMPLEMENTAR_9>
+<!-- Informação Complementar 10 --><INFO_COMPLEMENTAR_10></INFO_COMPLEMENTAR_10>
+<!-- Grupo de informações --><GRUPO_INFO_ADICIONAL></GRUPO_INFO_ADICIONAL>
+<!-- % Desconto Venda --><PERCENTUAL_DESC_VENDA></PERCENTUAL_DESC_VENDA>
+<!-- % Máx. Desconto --><MAX_DESCONTO></MAX_DESCONTO>
+<!-- Custo Contábil --><CUSTO_CONTABIL></CUSTO_CONTABIL>
+<!-- Quant.Máx.Venda --><QUANTIDADE_MAXIMA_VENDA></QUANTIDADE_MAXIMA_VENDA>
+<!-- Multiplica Pontos (Liquido) --><MULTIPLICA_PONTOS_VALOR_LIQ></MULTIPLICA_PONTOS_VALOR_LIQ>
+<!-- Quantidade Pontos na Venda --><QUANTIDADE_PONTOS_VENDA></QUANTIDADE_PONTOS_VENDA>
+<!-- % Máx. Acréscimo --><MAX_ACRESCIMO></MAX_ACRESCIMO>
+<!-- Preço Codificado --><PRECO_CODIFICADO></PRECO_CODIFICADO>
+<!-- Vasilhame --><INDICA_TRATAMENTO_VASILHAME></INDICA_TRATAMENTO_VASILHAME>
+<!-- Somente Quantidade unitária --><CONTROLA_DIGITACAO_QUANT></CONTROLA_DIGITACAO_QUANT>
+<!-- Sem Repetir --><CONTROLA_REPETICAO_PRODUTO></CONTROLA_REPETICAO_PRODUTO>
+<!-- Restrição de Pagamento --><RESTRICAO_PAG_VENDA></RESTRICAO_PAG_VENDA>
+<!-- Proibe venda fracionada --><PROIBE_VENDA_FRACIONADA></PROIBE_VENDA_FRACIONADA>
+<!-- Peso Variavel --><INDICA_MERC_PESO_VARIAVEL></INDICA_MERC_PESO_VARIAVEL>
+<!-- Moeda Estavel --><INDICADOR_PRECO_INDEXADO></INDICADOR_PRECO_INDEXADO>
+<!-- Proibe desc func --><PROIBE_DESC_FUNCIONARIO></PROIBE_DESC_FUNCIONARIO>
+<!-- Exige vendedor --><EXIGE_VENDEDOR></EXIGE_VENDEDOR>
+<!-- Desconto Peso Tara --><INDICA_PESO_TARA></INDICA_PESO_TARA>
+<!-- Modo arredondamento --><MODO_ARREDONDAMENTO></MODO_ARREDONDAMENTO>
+<!-- Fabricação Própria --><FABRICACAO_PROPRIA></FABRICACAO_PROPRIA>
+<!-- Legenda Produto --><FLAG_SERIE_PDV></FLAG_SERIE_PDV>
+<!-- Não Requer Conferência do Kit --><FLG_CONFERE_KIT></FLG_CONFERE_KIT>
+<!-- Duplo Escaneamento --><FLG_DUPLO_CHECK></FLG_DUPLO_CHECK>
+<!-- Exige Conferência de Peso --><FLG_CONFERE_PESO></FLG_CONFERE_PESO>
+<!-- Venda Exclusiva no cupom --><FLG_VENDA_EXCLUSIVA></FLG_VENDA_EXCLUSIVA>
+<!-- Produto patrocinado --><FLG_PROD_PATROCINADO></FLG_PROD_PATROCINADO>
+<!-- Solicita informações para rastreio --><FLG_RASTREAR></FLG_RASTREAR>
+<!-- Emite cupom de premiação --><FLG_ITEM_PREMIADO></FLG_ITEM_PREMIADO>
+<!-- Combustível --><FLG_COMBUSTIVEL></FLG_COMBUSTIVEL>
+<!-- Tipo de combustível --><TIPO_COMBUSTIVEL></TIPO_COMBUSTIVEL>
+<!-- Proibe para a promoção de geração de selos(lista de exceção) --><FLG_PROIBE_FIDELIZACAO_SELO></FLG_PROIBE_FIDELIZACAO_SELO>
+<!-- Produto de fidelização patrocinado --><FLG_FIDELIZACAO_PATROCINADO></FLG_FIDELIZACAO_PATROCINADO>
+<!-- Produto de fidelização marca própria --><FLG_FIDELIZACAO_MARCA_PROPRIA></FLG_FIDELIZACAO_MARCA_PROPRIA>
+<!-- Produtos que serão artigos promocionais --><FLG_ARTIGOS_PROMOCIONAIS></FLG_ARTIGOS_PROMOCIONAIS>
+<!-- Proibir produto de ser vendido em SelfCheckout --><FLG_PROIBE_SELFCHECKOUT></FLG_PROIBE_SELFCHECKOUT>
+<!-- Ativa vinculação de pagamento se "preço por quantidade" --><INDICE_VINCULADO_FINALIZADORA></INDICE_VINCULADO_FINALIZADORA>
+<!-- Premiação Vinculada --><FLG_PREMIACAO></FLG_PREMIACAO>
+<!-- Regerar XML em modo Online --><FLG_REGERA_XML></FLG_REGERA_XML>
+<!-- Unidade de Venda --><UNIDADE_VENDA></UNIDADE_VENDA>
+<!-- Quantidade Embalagem --><QUANTIDADE_EMBALAGEM></QUANTIDADE_EMBALAGEM>
+<!-- Unidade Tributária --><UNIDADE_TRIB></UNIDADE_TRIB>
+<!-- Quantidade Tributária --><QUANTIDADE_TRIB></QUANTIDADE_TRIB>
+<!-- Unidade Tributária Exterior --><UNIDADE_TRIB_EXTERIOR></UNIDADE_TRIB_EXTERIOR>
+<!-- Quantidade Tributária Exterior --><QUANTIDADE_TRIB_EXTERIOR></QUANTIDADE_TRIB_EXTERIOR>
+<!-- Posição do Preço --><POSICAO_PRECO></POSICAO_PRECO>
+<!-- Tipo de Preço --><TIPO_PRECO></TIPO_PRECO>
+<!-- Seleção e uso de vários preços --><SELECAO_USO_VARIOS_PRECOS></SELECAO_USO_VARIOS_PRECOS>
+<!-- Permissão de Venda --><PERMISSAO_VENDA></PERMISSAO_VENDA>
+<!-- Peso Bruto --><PESO_BRUTO></PESO_BRUTO>
+<!-- Peso Liquido --><PESO_LIQUIDO></PESO_LIQUIDO>
+<!-- % Variação do Peso para Conferência --><VARIACAO_PRODUTO_PESADO></VARIACAO_PRODUTO_PESADO>
+<!-- Controle Consumidor --><FLAG_CONTROLE_CONSUMIDOR></FLAG_CONTROLE_CONSUMIDOR>
+<!-- Coleta de Dados --><CAPTURA_DADOS></CAPTURA_DADOS>
+<!-- Controle de Mercadoria --><FLG_PRODUTO_CONTROLADO></FLG_PRODUTO_CONTROLADO>
+<!-- Alternativo Especial --><ALTERNATIVO_ESPECIAL></ALTERNATIVO_ESPECIAL>
+<!-- Limite de Dias para Compra --><LIMITE_DIAS_COMPRA></LIMITE_DIAS_COMPRA>
+<!-- Número da impressora remota --><CONTROLA_IMPRESSORA_REMOTA></CONTROLA_IMPRESSORA_REMOTA>
+<!-- Operação de venda --><FLG_PROIBE_VENDA></FLG_PROIBE_VENDA>
+<!-- Forma de decomposição --><FLG_FORMA_DECOMPOSICAO></FLG_FORMA_DECOMPOSICAO>
+<!-- EAN da unidade --><EAN_UNIDADE></EAN_UNIDADE>
+<!-- Tipo de Bonus --><TIPO_BONUS></TIPO_BONUS>
+<!-- Tipo do Bonus 2 --><TIPO_BONUS_2></TIPO_BONUS_2>
+<!-- Bônus positivo --><QUANTIDADE_BONUS_VENDA></QUANTIDADE_BONUS_VENDA>
+<!-- Bônus negativo --><QTD_BONUS_NEGATIVO></QTD_BONUS_NEGATIVO>
+<!-- Quant.Máx.Preço Promoção --><QUANTIDADE_MAX_PRECO_PROMO></QUANTIDADE_MAX_PRECO_PROMO>
+<!-- Valor Mínimo Preço Promoção --><VALOR_TOTAL_PRECO_PROMOCAO></VALOR_TOTAL_PRECO_PROMOCAO>
+<!-- Indice Promoção --><INDICE_PROMO></INDICE_PROMO>
+<!-- Código Promoção Venda Tipo 1 --><COD_PROMO_VDA1></COD_PROMO_VDA1>
+<!-- Código Promoção Venda Tipo 2 --><COD_PROMO_VDA2></COD_PROMO_VDA2>
+<!-- Código Promoção Venda Tipo 3 --><COD_PROMO_VDA3></COD_PROMO_VDA3>
+<!-- Código Promoção Venda Tipo 4 --><COD_PROMO_VDA4></COD_PROMO_VDA4>
+<!-- Código Promoção Venda Tipo 5 --><COD_PROMO_VDA5></COD_PROMO_VDA5>
+<!-- Situação Tributária --><!-- Obrigatorio --><COD_SITUACAO_TRIBUTARIA></COD_SITUACAO_TRIBUTARIA>
+<!-- Situação Tributária ISS --><!-- Obrigatorio --><COD_SIT_TRIB_ISS></COD_SIT_TRIB_ISS>
+<!-- Tributação PDV --><!-- Obrigatorio --><COD_TRIBUTACAO_MERCADORIA></COD_TRIBUTACAO_MERCADORIA>
+<!-- Tributação PDV --><DES_TRIBUT_PDV></DES_TRIBUT_PDV>
+<!-- Percentual de incidência tributária --><PERC_TRIBUTOS></PERC_TRIBUTOS>
+<!-- Percentual de incidência tributária Federal --><PERC_TRIBUTOS_FEDERAL></PERC_TRIBUTOS_FEDERAL>
+<!-- Percentual de incidência tributária Estadual --><PERC_TRIBUTOS_ESTADUAL></PERC_TRIBUTOS_ESTADUAL>
+<!-- Percentual de incidência tributária Municipal --><PERC_TRIBUTOS_MUNICIPAL></PERC_TRIBUTOS_MUNICIPAL>
+<!-- Exceção TIPI --><EXCECAO_TIPI></EXCECAO_TIPI>
+<!-- Observação Fiscal --><COD_OBSERVACAO_FISCAL></COD_OBSERVACAO_FISCAL>
+<!-- PIS/COFINS em Cupons --><ISENTO_PIS_COFINS></ISENTO_PIS_COFINS>
+<!-- Cód. Genero --><COD_GENERO></COD_GENERO>
+<!-- Cód. NCM --><COD_NCM></COD_NCM>
+<!-- Cód. EX Imposto Importação --><COD_EXII></COD_EXII>
+<!-- Cód. Serviço --><COD_LST></COD_LST>
+<!-- Cód. Serviço do Municipio --><COD_SERVICO_MUNICIPIO></COD_SERVICO_MUNICIPIO>
+<!-- Cód. Especificador da Substituição Tributária --><CEST></CEST>
+<!-- Aliquota interna de ICMS --><ALIQUOTA_INTERNA_ICMS></ALIQUOTA_INTERNA_ICMS>
+<!-- Percentual de redução ICMS --><PERCENTUAL_REDUZ_B_CALCULO></PERCENTUAL_REDUZ_B_CALCULO>
+<!-- Percentual de redução PIS --><PERC_REDUZ_B_CALCULO_PIS></PERC_REDUZ_B_CALCULO_PIS>
+<!-- Percentual de redução COFINS --><PERC_REDUZ_B_CALCULO_COFINS></PERC_REDUZ_B_CALCULO_COFINS>
+<!-- Aliquota de PIS --><ALIQUOTA_PIS></ALIQUOTA_PIS>
+<!-- Aliquota de COFINS --><ALIQUOTA_COFINS></ALIQUOTA_COFINS>
+<!-- Percentual de substituição ICMS --><PERC_SUBST_ICMS></PERC_SUBST_ICMS>
+<!-- Percentual de substituição PIS --><PERC_SUBST_PIS></PERC_SUBST_PIS>
+<!-- Percentual de substituição COFINS --><PERC_SUBST_COFINS></PERC_SUBST_COFINS>
+<!-- Aliquota valor do PIS --><ALIQUOTA_VALOR_PIS></ALIQUOTA_VALOR_PIS>
+<!-- Aliquota valor do COFINS --><ALIQUOTA_VALOR_COFINS></ALIQUOTA_VALOR_COFINS>
+<!-- CFOP --><CFOP></CFOP>
+<!-- Código da situação tributária de PIS --><COD_SIT_TRIB_PIS></COD_SIT_TRIB_PIS>
+<!-- Código da situação tributária de PIS PVVM --><COD_SIT_TRIB_PIS_PVVM></COD_SIT_TRIB_PIS_PVVM>
+<!-- Código da situação tributária de COFINS --><COD_SIT_TRIB_COFINS></COD_SIT_TRIB_COFINS>
+<!-- Código da situação tributária de COFINS PVVM --><COD_SIT_TRIB_COFINS_PVVM></COD_SIT_TRIB_COFINS_PVVM>
+<!-- Preço Venda Valor Minimo --><PVVM></PVVM>
+<!-- Ativa tags de rastreamento em nota fiscal? --><FLG_RASTREAMENTO></FLG_RASTREAMENTO>
+<!-- Percentual de fundo de pobreza --><PERCENTUAL_FUNDO_POBREZA></PERCENTUAL_FUNDO_POBREZA>
+<!-- Preço Máximo ANVISA --><PRECO_MAX_ANVISA></PRECO_MAX_ANVISA>
+<!-- Código do Benefício Fiscal --><CODIGO_BENEFICIO_FISCAL></CODIGO_BENEFICIO_FISCAL>
+<!-- Descrição Abreviada --><DESCRICAO_ABR></DESCRICAO_ABR>
+<!-- Dias de validade --><DIAS_VALIDADE></DIAS_VALIDADE>
+<!-- Categoria de Balança --><CATEGORIA_BALANCA></CATEGORIA_BALANCA>
+<!-- Receita --><COD_RECEITA></COD_RECEITA>
+<!-- Tabela Nutricional --><COD_NUTRICIONAL></COD_NUTRICIONAL>
+<!-- Cód. Etiqueta --><COD_ETIQUETA></COD_ETIQUETA>
+<!-- Qtde. Padrão de Etiquetas --><QTD_ETIQUETA></QTD_ETIQUETA>
+<!-- Fator Preço --><FATOR_PRECO_ETIQUETA></FATOR_PRECO_ETIQUETA>
+<!-- Texto Fator Preço --><TEXTO_FATOR_PRECO_ETIQUETA></TEXTO_FATOR_PRECO_ETIQUETA>
+<!-- Imprime Documento Auxiliar na Venda --><IMPRIME_CODIGO_BARRAS></IMPRIME_CODIGO_BARRAS>
+<!-- Custo de Reposição Atual --><CUSTO_REPOSICAO></CUSTO_REPOSICAO>
+<!-- Custo de Reposição Anterior --><CUSTO_REPOSICAO_ANTERIOR></CUSTO_REPOSICAO_ANTERIOR>
+<!-- Margem (%) --><MARGEM_MERCADORIA></MARGEM_MERCADORIA>
+<!-- Sugestão de Venda --><CUSTO_SUGESTAO></CUSTO_SUGESTAO>
+<!-- Custo --><CUSTO></CUSTO>
+<!-- Última Atualização Custos --><DTH_ATUALIZACAO_CUSTOS></DTH_ATUALIZACAO_CUSTOS>
+<!-- Mercadoria Pai --><COD_PRODUTO_PAI></COD_PRODUTO_PAI>
+</MERCADORIA></MERCADORIAS></REPLACE></COMMANDS></DATABASE></DATABASES></ZMI>

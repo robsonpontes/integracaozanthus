@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><ZMI><DATABASES><DATABASE NAME="MANAGER" AUTOCOMMIT_VALUE="1000" AUTOCOMMIT_ENABLED="1" HALTONERROR="1"><COMMANDS><REPLACE><CLIENTES><CLIENTE>
+<!-- Código --><!-- Obrigatorio --><COD_CLIENTE></COD_CLIENTE>
+<!-- Tipo de Cliente --><FLG_EMPRESA></FLG_EMPRESA>
+<!-- Nome --><!-- Obrigatorio --><DES_CLIENTE></DES_CLIENTE>
+<!-- Fantasia --><DES_FANTASIA></DES_FANTASIA>
+<!-- Cliente estrangeiro --><FLG_ESTRANGEIRO></FLG_ESTRANGEIRO>
+<!-- CPF/CNPJ --><!-- Obrigatorio --><NUM_CGC></NUM_CGC>
+<!-- RNE/Passaporte --><DOC_ID_ESTRANGEIRO></DOC_ID_ESTRANGEIRO>
+<!-- Insc. Est./RG --><!-- Obrigatorio --><NUM_INSC_EST></NUM_INSC_EST>
+<!-- Número do Cartão --><NUM_CARTAO></NUM_CARTAO>
+<!-- Micro Empresa? --><MICRO_EMPRESA></MICRO_EMPRESA>
+<!-- Cód. SUFRAMA --><COD_SUFRAMA></COD_SUFRAMA>
+<!-- Categoria Cliente --><CATEGORIA_CLIENTE></CATEGORIA_CLIENTE>
+<!-- Gera Evento Financeiro --><FLG_GERA_EVENTO_FINANCEIRO></FLG_GERA_EVENTO_FINANCEIRO>
+<!-- Categoria Formas de Pagamento --><CATEGORIA_PAGAMENTO></CATEGORIA_PAGAMENTO>
+<!-- Opções --><OPCAO_MENSAGEM></OPCAO_MENSAGEM>
+<!-- Tipo de Conta --><FLG_TIPO_CONTA></FLG_TIPO_CONTA>
+<!-- Usuário --><USUARIO></USUARIO>
+<!-- e-mail --><DES_EMAIL></DES_EMAIL>
+<!-- Data Cadastro --><DTA_CADASTRO></DTA_CADASTRO>
+<!-- Data Alteração --><DTA_ALTERACAO></DTA_ALTERACAO>
+<!-- Cadastro Completo? --><SITUACAO_CADASTRO></SITUACAO_CADASTRO>
+<!-- Enviar para o PDV? --><FLG_ENVIAR_CARGA></FLG_ENVIAR_CARGA>
+<!-- Empresa Conveniada? --><FLG_CONVENIO></FLG_CONVENIO>
+<!-- Necessita checar pessoa autorizada? --><FLG_PESSOA_AUTORIZADA></FLG_PESSOA_AUTORIZADA>
+<!-- Senha Cliente (apenas números) --><SENHA_PDV></SENHA_PDV>
+<!-- Código cliente SAP --><COD_CLIENTE_INTEGRACAO></COD_CLIENTE_INTEGRACAO>
+<!-- Senha WEB --><SENHA_WEB></SENHA_WEB>
+<!-- Município --><!-- Obrigatorio --><ID_MUNICIPIO></ID_MUNICIPIO>
+<!-- Endereço --><!-- Obrigatorio --><DES_ENDERECO></DES_ENDERECO>
+<!-- Número --><!-- Obrigatorio --><NUMERO></NUMERO>
+<!-- Complemento --><COMPL_ENDERECO></COMPL_ENDERECO>
+<!-- Bairro --><!-- Obrigatorio --><DES_BAIRRO></DES_BAIRRO>
+<!-- CEP --><!-- Obrigatorio --><NUM_CEP></NUM_CEP>
+<!-- Cidade --><!-- Obrigatorio --><DES_CIDADE></DES_CIDADE>
+<!-- UF --><!-- Obrigatorio --><DES_SIGLA></DES_SIGLA>
+<!-- Apelido --><APELIDO_ENDERECO></APELIDO_ENDERECO>
+<!-- Referência --><DESC_REFERENCIA></DESC_REFERENCIA>
+<!-- Telefone --><NUM_FONE></NUM_FONE>
+<!-- Telefone Número --><NUM_FONE_NUM></NUM_FONE_NUM>
+<!-- FAX --><NUM_FAX></NUM_FAX>
+<!-- Celular --><NUM_CELULAR></NUM_CELULAR>
+<!-- Contato --><DES_CONTATO></DES_CONTATO>
+<!-- Tipo de Frete --><FLG_TIPO_COBRANCA></FLG_TIPO_COBRANCA>
+<!-- Observações --><DES_OBSERVACAO></DES_OBSERVACAO>
+<!-- Código País --><COD_PAIS></COD_PAIS>
+<!-- Sexo --><FLG_SEXO></FLG_SEXO>
+<!-- Estado Civil --><FLG_EST_CIVIL></FLG_EST_CIVIL>
+<!-- Data Nascimento --><DTA_NASCIMENTO></DTA_NASCIMENTO>
+<!-- Faixa Etária --><FAIXA_ETARIA></FAIXA_ETARIA>
+<!-- Escolaridade --><NIVEL_ESCOLARIDADE></NIVEL_ESCOLARIDADE>
+<!-- Renda Familiar --><VAL_RENDA></VAL_RENDA>
+<!-- Nacionalidade --><DES_NACIONALIDADE></DES_NACIONALIDADE>
+<!-- Pai --><DES_PAI></DES_PAI>
+<!-- Mãe --><DES_MAE></DES_MAE>
+<!-- Conjuge --><DES_CONJUGE></DES_CONJUGE>
+<!-- CPF Conjuge --><NUM_CPF_CONJUGE></NUM_CPF_CONJUGE>
+<!-- WEB Site --><DES_WEB></DES_WEB>
+<!-- Residência Própria --><FLG_RESIDENCIA></FLG_RESIDENCIA>
+<!-- Data Ult. Residência --><DTA_ULT_RESID></DTA_ULT_RESID>
+<!-- Saudação --><DES_TRATAMENTO></DES_TRATAMENTO>
+<!-- Sobrenome --><DES_SOBRENOME_CONTATO></DES_SOBRENOME_CONTATO>
+<!-- Nome --><DES_NOME_CONTATO></DES_NOME_CONTATO>
+<!-- Profissão --><FLG_PROFISSAO></FLG_PROFISSAO>
+<!-- Empresa Trabalho --><DES_EMPRESA_TRAB></DES_EMPRESA_TRAB>
+<!-- Telefone Trabalho --><NUM_FONE_TRAB></NUM_FONE_TRAB>
+<!-- Matrícula --><DES_MATRICULA></DES_MATRICULA>
+<!-- Convênio --><COD_CONVENIO></COD_CONVENIO>
+<!-- Núm. Dependentes --><NUM_DEPENDENTE></NUM_DEPENDENTE>
+<!-- Cargo --><DES_PROFISSAO></DES_PROFISSAO>
+<!-- Dependente 1 --><DES_DEPEND_1></DES_DEPEND_1>
+<!-- Dependente 2 --><DES_DEPEND_2></DES_DEPEND_2>
+<!-- Dependente 3 --><DES_DEPEND_3></DES_DEPEND_3>
+<!-- Dependente 4 --><DES_DEPEND_4></DES_DEPEND_4>
+<!-- Mensagem --><COD_MENSAGEM></COD_MENSAGEM>
+<!-- Limite de Crédito --><VAL_LIMITE_CREDITO></VAL_LIMITE_CREDITO>
+<!-- Data Ultima Compra --><DATA_ULTIMA_COMPRA></DATA_ULTIMA_COMPRA>
+<!-- Restabelecer Credito Mediante: --><FORMA_REATIVAR_CREDITO></FORMA_REATIVAR_CREDITO>
+<!-- Dia Vcto. da Fatura: --><DIA_VENCIMENTO_FATURA></DIA_VENCIMENTO_FATURA>
+<!-- Forma de pagamento fatura --><COD_PLANO_FINANCEIRO></COD_PLANO_FINANCEIRO>
+<!-- Dia inicial de compra --><DIA_INI_FATURA></DIA_INI_FATURA>
+<!-- Dia final de compra --><DIA_FIM_FATURA></DIA_FIM_FATURA>
+<!-- Núm Colaboradores --><NUM_COLABORADORES></NUM_COLABORADORES>
+<!-- Desconto --><VAL_DESCONTO></VAL_DESCONTO>
+<!-- Valor Débito --><VAL_DEBITO></VAL_DEBITO>
+<!-- Núm. Condição --><NUM_CONDICAO></NUM_CONDICAO>
+<!-- Valor Crédito --><VAL_CREDITO></VAL_CREDITO>
+<!-- Cód. Condição --><COD_CONDICAO></COD_CONDICAO>
+<!-- Valor Disponível --><VAL_DISPONIVEL></VAL_DISPONIVEL>
+<!-- Status PDV --><COD_STATUS_PDV></COD_STATUS_PDV>
+<!-- Classificação --><COD_CLASSIF></COD_CLASSIF>
+<!-- Dia de Fechamento --><NUM_DIA_FECHA></NUM_DIA_FECHA>
+<!-- Banco --><COD_BANCO></COD_BANCO>
+<!-- Agência --><NUM_AGENCIA></NUM_AGENCIA>
+<!-- Ag. Dígito --><NUM_AGENCIA_DIGITO></NUM_AGENCIA_DIGITO>
+<!-- Conta Corrente --><NUM_CONTA_CORRENTE></NUM_CONTA_CORRENTE>
+<!-- CC. Dígito --><NUM_CONTA_CORRENTE_DIGITO></NUM_CONTA_CORRENTE_DIGITO>
+<!-- Qtde Compras --><QTDE_COMPRAS></QTDE_COMPRAS>
+<!-- Valor Ultima Compra --><VAL_ULTIMA_COMPRA></VAL_ULTIMA_COMPRA>
+<!-- Valor Compra --><VAL_COMPRAS></VAL_COMPRAS>
+<!-- Primeira Data --><DATA_PRIMEIRA_COMPRA></DATA_PRIMEIRA_COMPRA>
+<!-- Data CC --><DTA_CC></DTA_CC>
+<!-- Possui Automóvel? --><FLG_AUTOMOVEL></FLG_AUTOMOVEL>
+<!-- Ano de Fabric. Auto. --><DES_ANO_FABR></DES_ANO_FABR>
+<!-- Tipo Cartão --><TIPO_C_CREDITO></TIPO_C_CREDITO>
+<!-- Cheque Especial? --><FLG_CHQ_ESPECIAL></FLG_CHQ_ESPECIAL>
+<!-- Automóvel Alienado? --><FLG_AUTO_ALIENADO></FLG_AUTO_ALIENADO>
+<!-- controle --><CONTROLE></CONTROLE>
+<!-- Orgão Publico Estadual (Isento ICMS) --><FLG_ORGINST></FLG_ORGINST>
+<!-- UF de atuação --><UF_ORGINST></UF_ORGINST>
+<!-- Revenda --><FLG_REVENDA></FLG_REVENDA>
+<!-- Ramo de Atividade --><RAMO_ATIVIDADE></RAMO_ATIVIDADE>
+<!-- Regime Tributário --><REGIME_TRIBUTARIO></REGIME_TRIBUTARIO>
+<!-- Inscrição Municipal/CCM --><NUM_INSC_MUN></NUM_INSC_MUN>
+<!-- Contribuínte ICMS? --><FLG_CONTRIBUINTE_ICMS></FLG_CONTRIBUINTE_ICMS>
+<!-- Código do IBGE --><COD_IBGE></COD_IBGE>
+<!-- FLG_INTEGRACAO_01 --><FLG_INTEGRACAO_01></FLG_INTEGRACAO_01>
+<!-- DTH_INTEGRACAO_01 --><DTH_INTEGRACAO_01></DTH_INTEGRACAO_01>
+<!-- FLG_INTEGRACAO_02 --><FLG_INTEGRACAO_02></FLG_INTEGRACAO_02>
+<!-- DTH_INTEGRACAO_02 --><DTH_INTEGRACAO_02></DTH_INTEGRACAO_02>
+<!-- COD_LOJA_EMPENHO_PONTO --><COD_LOJA_EMPENHO_PONTO></COD_LOJA_EMPENHO_PONTO>
+<!-- COD_PDV_EMPENHO_PONTO --><COD_PDV_EMPENHO_PONTO></COD_PDV_EMPENHO_PONTO>
+<!-- USUARIO_EMPENHO_PONTO --><USUARIO_EMPENHO_PONTO></USUARIO_EMPENHO_PONTO>
+<!-- DTH_EMPENHO_PONTO --><DTH_EMPENHO_PONTO></DTH_EMPENHO_PONTO>
+<!-- Código conta SPED --><COD_CONTA_SPED></COD_CONTA_SPED>
+<!-- Status do Cliente --><STATUS_CLIENTE></STATUS_CLIENTE>
+<!-- Participa de Fidelidade? --><FLG_FIDELIDADE></FLG_FIDELIDADE>
+<!-- Resgate de bônus inclui dependentes? --><FLG_CRM_RESGATE_BONUS></FLG_CRM_RESGATE_BONUS>
+<!-- Resgate de pontos inclui dependentes? --><FLG_CRM_RESGATE_PONTOS></FLG_CRM_RESGATE_PONTOS>
+</CLIENTE></CLIENTES></REPLACE></COMMANDS></DATABASE></DATABASES></ZMI>
