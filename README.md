@@ -1,4 +1,4 @@
-# Integração Zanthus x Websac
+# Integração Zanthus
 
 
 ### Detalhes sobre integração Zanthus x Websac
